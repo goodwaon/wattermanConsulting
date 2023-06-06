@@ -6,7 +6,7 @@ module.exports = {
     "./components/**/*.{html,js,ts,jsx,tsx}",
  
     // Or if using `src` directory:
-    "./public/**/*.{html,js,ts,jsx,tsx}",
+    "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {

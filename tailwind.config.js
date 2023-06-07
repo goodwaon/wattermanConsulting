@@ -2,14 +2,7 @@
 
 
 module.exports = {
-  content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{html,js,ts,jsx,tsx}",
-    "./Components/**/*.{html,js,ts,jsx,tsx}",
-
-    "./src/**/*.{html,js,ts,jsx,tsx}",
-
-  ],
+  content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {

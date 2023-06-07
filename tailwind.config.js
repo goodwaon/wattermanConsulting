@@ -2,9 +2,13 @@
 
 
 module.exports = {
-  purge: [
-    "./components/**/*.{js,jsx}",
-    "./public/index.html",
+  purge: false,
+  content: [
+    './app/**/*.js', // Note the addition of the `app` directory.
+    './pages/**/*.js',
+    './components/**/*.js',
+    // Or if using `src` directory:
+    './src/**/*.js',
   ],
   theme: {
     extend: {

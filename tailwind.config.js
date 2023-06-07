@@ -5,13 +5,7 @@ module.exports = {
   content: [
     './app/**/*.js', // Note the addition of the `app` directory.
     './pages/**/*.js',
-    './components/about/**/*.js',
-    './components/contact/**/*.js',
-    './components/features/**/*.js',
-    './components/hero/**/*.js',
-    './components/navbar/**/*.js',
-    
- 
+    './components/**/*.js',
     // Or if using `src` directory:
     './src/**/*.js',
   ],

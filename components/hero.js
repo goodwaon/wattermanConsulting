@@ -4,12 +4,12 @@ function Hero() {
 
     return (
         <div>
-            <section className="bg-white dark:bg-gray-900">
+            <section className="bg-white">
                 <div className="container px-6 py-16 mx-auto text-center">
                     <div className="max-w-xl mx-auto">
-                        <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">Employee Benefits and Consulting</h1>
-                        <p className="mt-6 text-gray-500 dark:text-gray-300">Watermann Consulting & Employee Benefits is built on two core principles</p> 
-                        <p className="text-gray-500 dark:text-gray-300"> – Professionalism and Integrity - </p>
+                        <h1 className="text-3xl font-semibold text-gray-800  lg:text-4xl">Employee Benefits and Consulting</h1>
+                        <p className="mt-6 text-gray-500 ">Watermann Consulting & Employee Benefits is built on two core principles</p> 
+                        <p className="text-gray-500 "> – Professionalism and Integrity - </p>
                         <button className="px-5 py-2 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-green-1050 rounded-lg hover:bg-green-950 lg:mx-0 lg:w-auto focus:outline-none">
                             Request A Free Quote Today
                         </button>

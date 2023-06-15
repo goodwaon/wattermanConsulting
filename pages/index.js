@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-import styles from '/styles/Home.module.js'
+import styles from '../styles/Home.module.css'
 
 // Components
 import NavBar from '../components/navBar'
@@ -15,7 +15,7 @@ import Footer from '../components/footer'
 
 export default function Home() {
   return (
-    <div style={styles.body}>
+    <div className={styles.body}>
       <Head>
         <title>Create Next App</title>
         <meta name="Watermann Consulting" content="Consulting & Employee Benefits" />

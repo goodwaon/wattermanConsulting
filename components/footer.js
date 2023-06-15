@@ -8,14 +8,14 @@ function Footer(){
     return(
 <footer class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 mb-20">
-        <div class="md:flex md:justify-between">
+        <div class="md:flex justify-between">
           <div class="mb-6 md:mb-0">
               <a href="https://wattermannconsulting.com/" class="flex items-center">
                   <Image src={Logo} height="150" width="400" class="h-8 mr-3" alt="Wattermann Logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
               </a>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-8 sm:grid-cols-5">
+          <div class="grid grid-cols-2 gap-8 sm:gap-5 sm:grid-cols-3">
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                   <ul class="text-gray-600 dark:text-gray-400 font-medium">
@@ -30,6 +30,7 @@ function Footer(){
                       </li>
                   </ul>
               </div>
+              <div></div>
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                   <ul class="text-gray-600 dark:text-gray-400 font-medium">
@@ -37,7 +38,7 @@ function Footer(){
                           <a href="https://instagram.com/watermannconsulting" class="hover:underline ">Instagram</a>
                       </li>
                       <li>
-                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Linkden</a>
+                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Linkedin</a>
                       </li>
                   </ul>
               </div>

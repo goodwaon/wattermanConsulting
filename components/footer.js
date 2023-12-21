@@ -15,7 +15,7 @@ function Footer(){
                   <span className="self-center text-2xl font-semibold whitespace-nowrap "></span>
               </a>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-5 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-8 sm:gap-10 sm:grid-cols-2">
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Resources</h2>
                   <ul className="text-gray-600  font-medium">
@@ -30,7 +30,6 @@ function Footer(){
                       </li>
                   </ul>
               </div>
-              <div></div>
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Follow us</h2>
                   <ul className="text-gray-600 font-medium">

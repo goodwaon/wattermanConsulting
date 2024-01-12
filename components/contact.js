@@ -17,6 +17,7 @@ function Contact() {
                     relative z-10">
                   <p className="w-full text-4xl font-medium text-center leading-snug font-serif">Contact Us</p>
                   <form className="w-full" name="contact" method="POST" data-netlify="true">
+                  <input type="hidden" name="form-name" value="contact">
                   <div className="w-full mt-6 mr-0 mb-0 ml-0 relative space-y-8">
                     <div className="relative">
                       <p className="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600
@@ -46,10 +47,11 @@ function Contact() {
                           border-gray-300 rounded-md"/>
                     </div>
                     <div className="relative">
-                      <button  type="submit" className="w-full inline-block pt-4 pr-5 pb-4 pl-5 text-xl font-medium text-center text-white bg-green-1050
+                      <button type="submit" className="w-full inline-block pt-4 pr-5 pb-4 pl-5 text-xl font-medium text-center text-white bg-green-1050
                           rounded-lg transition duration-200 hover:bg-green-950 ease">Submit</button>
                     </div>
                   </div>
+                  </input>
                   </form>
                 </div>
                 <svg viewBox="0 0 91 91" className="absolute top-0 left-0 z-0 w-32 h-32 -mt-12 -ml-12 text-green-950

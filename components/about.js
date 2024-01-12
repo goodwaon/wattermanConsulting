@@ -39,7 +39,7 @@ function About() {
                 <div className="overflow-hidden">
                     <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
                         <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-                            <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
+                            <div className=" pb-20 w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                                     Brandon Watermann
                                 </h1>

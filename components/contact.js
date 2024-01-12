@@ -3,7 +3,7 @@ import react from 'react';
 function Contact() {
 
     return (
-        <div className="bg-white relative lg:py-20">
+        <div id='contact' className="bg-white relative lg:py-20">
           <div className="flex flex-col items-center justify-between pt-0 pr-10 pb-0 pl-10 mt-0 mr-auto mb-0 ml-auto max-w-7xl
               xl:px-5 lg:flex-row">
             <div className="flex flex-col items-center w-full pt-5 pr-10 pb-20 pl-10 lg:pt-20 lg:flex-row">
@@ -16,18 +16,19 @@ function Contact() {
                 <div className="flex flex-col items-start justify-start pt-10 pr-10 pb-10 pl-10 bg-white shadow-2xl rounded-xl
                     relative z-10">
                   <p className="w-full text-4xl font-medium text-center leading-snug font-serif">Contact Us</p>
+                  <form className="w-full" name="contact" method="POST" data-netlify="true">
                   <div className="w-full mt-6 mr-0 mb-0 ml-0 relative space-y-8">
                     <div className="relative">
                       <p className="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600
                           absolute">First Name</p>
-                      <input placeholder="John" type="text" className="border placeholder-gray-400 focus:outline-none
+                      <input placeholder="John" type="text" firstName="FirstName" className="border placeholder-gray-400 focus:outline-none
                           focus:border-black focus:ring-1 focus:ring-green-950 w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
                           border-gray-300 rounded-md"/>
                     </div>
                     <div className="relative">
                       <p className="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600
                           absolute">Last Name</p>
-                      <input placeholder="Smith" type="text" className="border placeholder-gray-400 focus:outline-none
+                      <input placeholder="Smith" type="text" lastName="LastName"className="border placeholder-gray-400 focus:outline-none
                           focus:border-black focus:ring-1 focus:ring-green-950 w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
                           border-gray-300 rounded-md"/>
                     </div>
@@ -45,10 +46,11 @@ function Contact() {
                           border-gray-300 rounded-md"/>
                     </div>
                     <div className="relative">
-                      <a className="w-full inline-block pt-4 pr-5 pb-4 pl-5 text-xl font-medium text-center text-white bg-green-1050
-                          rounded-lg transition duration-200 hover:bg-green-950 ease">Submit</a>
+                      <button type="submit" className="w-full inline-block pt-4 pr-5 pb-4 pl-5 text-xl font-medium text-center text-white bg-green-1050
+                          rounded-lg transition duration-200 hover:bg-green-950 ease">Submit</button>
                     </div>
                   </div>
+                  </form>
                 </div>
                 <svg viewBox="0 0 91 91" className="absolute top-0 left-0 z-0 w-32 h-32 -mt-12 -ml-12 text-green-950
                     fill-current"><g stroke="none" strokeWidth="1" fillRule="evenodd"><g fillRule="nonzero"><g><g><circle

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
+const flowbite = require("flowbite-react/tailwind");
 
 module.exports = {
   purge: false,
@@ -9,6 +10,7 @@ module.exports = {
     './components/**/*.js',
     // Or if using `src` directory:
     './src/**/*.js',
+    flowbite.content(),
   ],
   theme: {
     extend: {
@@ -23,5 +25,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/forms'),
+    flowbite.plugin(),
   ],
 }

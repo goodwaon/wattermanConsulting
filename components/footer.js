@@ -1,7 +1,7 @@
 import react from 'react';
 import Image from "next/image";
 
-import Logo from '../public/Watermann-Logo.png'
+import Logo from '../public/watermann-logo-blue-h.png'
 
 function Footer(){
 
@@ -11,7 +11,7 @@ function Footer(){
         <div className="md:flex justify-between">
           <div className="mb-6 md:mb-0">
               <a href="https://wattermannconsulting.com/" className="flex items-center">
-                  <Image src={Logo} height="150" width="400" className="h-8 mr-3" alt="Wattermann Logo" />
+                  <Image src={Logo} className="h-40 w-full mr-3" alt="Wattermann Logo" objectFit="contain" layout="fixed"/>
                   <span className="self-center text-2xl font-semibold whitespace-nowrap "></span>
               </a>
           </div>

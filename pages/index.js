@@ -10,6 +10,7 @@ import Features from '../components/features'
 import Contact from '../components/contact'
 import About from '../components/about'
 import Footer from '../components/footer'
+import TimeLine from 'components/timeline'
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
       </Head>
       <NavBar/>
       <Hero/>
+      <TimeLine/>
       <Features/>
       <Contact/>  
       <About/>

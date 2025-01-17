@@ -10,6 +10,7 @@ module.exports = {
     './components/**/*.js',
     // Or if using `src` directory:
     './src/**/*.js',
+    "./node_modules/flowbite/**/*.js",
     flowbite.content(),
   ],
   theme: {
@@ -17,7 +18,10 @@ module.exports = {
       colors: {
         green:{
         950: 'rgba(81, 164, 112, 1)',
-        1050: 'rgba(18,88,62,1)'
+        1050: 'rgba(18,88,62,1)',
+        },
+        blue:{ 
+          950: '#7BAFD4'
         }
       }
     },

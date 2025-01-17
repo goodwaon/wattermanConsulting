@@ -11,6 +11,7 @@ import Contact from '../components/contact'
 import About from '../components/about'
 import Footer from '../components/footer'
 import TimeLine from 'components/timeline'
+import Testimonials from 'components/testimonial'
 
 
 
@@ -28,6 +29,7 @@ export default function Home() {
       <TimeLine/>
       <Features/>
       <Contact/>  
+      <Testimonials/>
       <About/>
       <Footer/>
     </div>

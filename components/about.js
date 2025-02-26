@@ -1,4 +1,5 @@
 import react from 'react';
+import Image from 'next/image';
 
 function About() {
 

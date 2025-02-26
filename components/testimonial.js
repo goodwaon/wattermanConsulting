@@ -1,3 +1,6 @@
+import React from 'react'
+import Image from 'next/image'
+
 const testimonials = [
     {
       body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
@@ -63,7 +66,7 @@ const testimonials = [
                       <p>{`“${testimonial.body}”`}</p>
                     </blockquote>
                     <figcaption className="mt-6 flex items-center gap-x-4">
-                      <img alt="" src={testimonial.author.imageUrl} className="size-10 rounded-full bg-gray-50" />
+                      <Image alt="" src={testimonial.author.imageUrl} className="size-10 rounded-full bg-gray-50" />
                       <div>
                         <div className="font-semibold text-gray-900">{testimonial.author.name}</div>
                         <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>

@@ -7,7 +7,6 @@ import Logo from "../public/watermann-logo-blue-h.png";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Panel from "./panel";
 
-import { ChevronDoubleDown } from "@heroicons/react/20/solid";
 
 const navigation = [
   { name: "Product", href: "#" },

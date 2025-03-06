@@ -9,39 +9,39 @@ import {
 
 const features = [
   {
-    name: "Push to deploy.",
+    name: "Group Health Insurance",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.",
+      "Choosing the right health plan for your employees can be a balancing act considering network coverage, pharmacy options, and staying within your budget.",
     icon: CloudArrowUpIcon,
   },
   {
-    name: "SSL certificates.",
+    name: "Fully Insured",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+      "Any state, any carrier, anytime. We provide a broad range of plans with flexible options to meet the needs of any business.",
     icon: LockClosedIcon,
   },
   {
-    name: "Simple queues.",
+    name: "Self Insured",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.",
+      "Health plans that allow employers to share in both the risks and rewards have not only been a go-to for larger groups (100+ employees), but have increased in popularity for smaller businesses",
     icon: ArrowPathIcon,
   },
   {
-    name: "Advanced security.",
+    name: "Professional Employer Organization (PEO)",
     description:
-      "Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.",
+      "When entering into a partnership with a PEO (Professional Employer Organization), a co-employment arrangement is established between the business and PEO.",
     icon: FingerPrintIcon,
   },
   {
-    name: "Powerful API.",
+    name: "Health Savings Account (HSA)",
     description:
-      "Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.",
+      "An HSA is like your personal health piggy bank! You can stash away pre-tax dollars to cover qualified medical expenses, giving you more bang for your buck.",
     icon: Cog6ToothIcon,
   },
   {
-    name: "Database backups.",
+    name: "Health Reimbursement Arrangement (HRA)",
     description:
-      "Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.",
+      "A Health Reimbursement Arrangement (HRA) is like a helpful boost for those out-of-pocket expenses that your employer’s insurance doesn’t fully cover. Instead of handling the whole deductible yourself, your employer jumps in to share the load!",
     icon: ServerIcon,
   },
 ];
@@ -52,15 +52,13 @@ export default function Features() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-base/7 font-semibold text-indigo-400">
-            Everything you need
+          Why Choose Me?
           </h2>
           <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">
-            No server? No problem.
+          Expert Guidance, Personalized Service
           </p>
           <p className="mt-6 text-lg/8 text-gray-300">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            impedit perferendis suscipit eaque, iste dolor cupiditate
-            blanditiis.
+          Navigating insurance can be overwhelming, but you don’t have to do it alone. I provide expert advice and customized coverage solutions to ensure you get the protection you need—without the hassle.
           </p>
         </div>
         <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base/7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-16">

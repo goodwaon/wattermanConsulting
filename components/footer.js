@@ -10,7 +10,7 @@ function Footer(){
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 mb-20">
         <div className="md:flex justify-between">
           <div className="mb-6 md:mb-0">
-              <a href="https://wattermannconsulting.com/" className="flex items-center">
+              <a href="https://benefitsbw.com/" className="flex items-center">
                   <Image src={Logo} className="h-40 w-full mr-3" alt="Wattermann Logo" objectFit="contain" layout="fixed"/>
                   <span className="self-center text-2xl font-semibold whitespace-nowrap "></span>
               </a>

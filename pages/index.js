@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className={styles.body}>
       <Head>
-        <title>Create Next App</title>
+        <title>Watermann Consulting</title>
         <meta name="Watermann Consulting" content="Consulting & Employee Benefits" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

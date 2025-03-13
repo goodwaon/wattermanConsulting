@@ -6,7 +6,7 @@ function Hero() {
     return (
         <div>
             <section className="bg-white">
-                <div className="container px-6 pt-28 mx-auto text-center">
+                <div className="container px-6 py-28 mx-auto text-center">
                     <div className="max-w-xl mx-auto">
                         <h1 className="text-3xl font-semibold text-gray-800  lg:text-4xl">Employee Benefits and Consulting</h1>
                         <p className="mt-6 text-gray-500 ">Watermann Consulting & Employee Benefits is built on two core principles</p> 

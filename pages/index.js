@@ -26,10 +26,10 @@ export default function Home() {
       </Head>
       <NavBar/>
       <Hero/>
-      <TimeLine/>
       <Features/>
       <Contact/>  
-      <Testimonials/>
+      {/* <Testimonials/> */}
+      <TimeLine/>
       <About/>
       <Footer/>
     </div>

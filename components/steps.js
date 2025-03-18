@@ -18,7 +18,12 @@ export default function Steps() {
                             </div>
                             <div class="flex-grow pl-4">
                                 <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 1</h2>
-                                <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <p class="leading-relaxed">Assess Your Business Needs</p>
+                                <br></br>
+                                <p class="leading-relaxed">- Determine how many employees will be covered.</p>
+                                <br></br>
+                                <p class="leading-relaxed">- Identify the types of coverage you need (medical, dental, vision, etc.).</p>
+                                
                             </div>
                         </div>
                         <div class="flex relative pb-12">
@@ -32,7 +37,11 @@ export default function Steps() {
                             </div>
                             <div class="flex-grow pl-4">
                                 <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
-                                <p class="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
+                                <p class="leading-relaxed"> Compare Plans & Get Quotes</p>
+                                <br></br>
+                                <p class="leading-relaxed">- Review plan details, including premiums, deductibles, co-pays, and network coverage.</p>
+                                <br></br>
+                                <p class="leading-relaxed">- Consider employee needs and state/federal compliance requirements.</p>
                             </div>
                         </div>
                         <div class="flex relative pb-12">
@@ -47,7 +56,12 @@ export default function Steps() {
                             </div>
                             <div class="flex-grow pl-4">
                                 <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
-                                <p class="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
+                                <p class="leading-relaxed"> Select & Customize the Best Plan</p>
+                                <br></br>
+                                <p class="leading-relaxed">- Choose a plan that balances affordability and comprehensive coverage.</p>
+                                <br></br>
+                                <p class="leading-relaxed">- Adjust options like employer contribution levels or additional benefits.</p>
+                                
                             </div>
                         </div>
                         <div class="flex relative pb-12">
@@ -62,7 +76,12 @@ export default function Steps() {
                             </div>
                             <div class="flex-grow pl-4">
                                 <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4</h2>
-                                <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <p class="leading-relaxed"> Enroll & Educate Employees</p>
+                                <br></br>
+                                <p class="leading-relaxed">- Provide employees with details on their benefits and how to enroll.</p>
+                                <br></br>
+                                <p class="leading-relaxed">- Establish ongoing support with the broker for claims, renewals, and any issues.</p>
+                               
                             </div>
                         </div>
                         <div class="flex relative">
@@ -73,8 +92,8 @@ export default function Steps() {
                                 </svg>
                             </div>
                             <div class="flex-grow pl-4">
-                                <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH</h2>
-                                <p class="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p>
+                                <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Support Enrollment & Ongoing Assistance</h2>
+                                <p class="leading-relaxed">Offer continued support for claims, renewals, and policy adjustments.</p>
                             </div>
                         </div>
                     </div>

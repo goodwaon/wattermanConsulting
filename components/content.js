@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
@@ -34,10 +35,10 @@ export default function Content() {
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
                 Contact us for more information {' '}
-                <a href="#" className="font-semibold text-white">
+                <Link  href="/#" className="font-semibold text-white">
                   <span aria-hidden="true" className="absolute inset-0" />
                   Here <span aria-hidden="true">&rarr;</span>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="text-center">
@@ -48,15 +49,14 @@ export default function Content() {
               Choosing the right health plan for your employees can be a balancing act. Considering network coverage, pharmacy options, and staying within your budget. Then, there are ancillary benefits like dental, vision, disability, and voluntary work-site coverage to factor in.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#"
+                <Link href="/#"
                   className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                 >
                   Get started
-                </a>
-                <a href="#" className="text-sm/6 font-semibold text-white">
+                </Link>
+                <Link href="/#" className="text-sm/6 font-semibold text-white">
                   Learn more <span aria-hidden="true">→</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

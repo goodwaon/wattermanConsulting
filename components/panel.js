@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import {
@@ -10,11 +11,11 @@ import {
 
 const solutions = [
   { name: 'Group Health Insurance', description: 'Get a better understanding of your traffic', href: '/group', icon: ChartPieIcon },
-  { name: 'Fully Insured', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'Self Insured', description: "Your customers' data will be safe and secure", href: '#', icon: FingerPrintIcon },
-  { name: 'Professional Employer Organization', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  { name: 'Health Savings Account', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
-  { name: 'Health Reimbursement Arrangement', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+  { name: 'Fully Insured', description: 'Speak directly to your customers', href:'#', icon: CursorArrowRaysIcon },
+  { name: 'Self Insured', description: "Your customers' data will be safe and secure", href:'#', icon: FingerPrintIcon },
+  { name: 'Professional Employer Organization', description: 'Connect with third-party tools', href:  '#', icon: SquaresPlusIcon },
+  { name: 'Health Savings Account', description: 'Build strategic funnels that will convert', href:  '#', icon: ArrowPathIcon },
+  { name: 'Health Reimbursement Arrangement', description: 'Build strategic funnels that will convert', href:  '#', icon: ArrowPathIcon },
   { name: 'COBRA', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
 ]
 
@@ -42,10 +43,10 @@ export default function Panel() {
                   <item.icon aria-hidden="true" className="size-6 text-gray-600 group-hover:text-indigo-600" />
                 </div>
                 <div>
-                  <a href={item.href} className="font-semibold text-gray-900">
+                  <Link href={item.href} className="font-semibold text-gray-900">
                     {item.name}
                     <span className="absolute inset-0" />
-                  </a>
+                  </Link>
                   <p className="mt-1 text-gray-600">{item.description}</p>
                 </div>
               </div>

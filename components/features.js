@@ -4,7 +4,11 @@ import {
   Cog6ToothIcon,
   FingerPrintIcon,
   LockClosedIcon,
+  ShieldCheckIcon,
   ServerIcon,
+  UsersIcon,
+  BriefcaseIcon,
+  BanknotesIcon,
 } from "@heroicons/react/20/solid";
 
 const features = [
@@ -12,7 +16,7 @@ const features = [
     name: "Group Health Insurance",
     description:
       "Choosing the right health plan for your employees can be a balancing act considering network coverage, pharmacy options, and staying within your budget.",
-    icon: CloudArrowUpIcon,
+    icon: ShieldCheckIcon,
   },
   {
     name: "Fully Insured",
@@ -24,19 +28,19 @@ const features = [
     name: "Self Insured",
     description:
       "Health plans that allow employers to share in both the risks and rewards have not only been a go-to for larger groups (100+ employees), but have increased in popularity for smaller businesses",
-    icon: ArrowPathIcon,
+    icon: UsersIcon,
   },
   {
     name: "Professional Employer Organization (PEO)",
     description:
       "When entering into a partnership with a PEO (Professional Employer Organization), a co-employment arrangement is established between the business and PEO.",
-    icon: FingerPrintIcon,
+    icon: BriefcaseIcon,
   },
   {
     name: "Health Savings Account (HSA)",
     description:
       "An HSA is like your personal health piggy bank! You can stash away pre-tax dollars to cover qualified medical expenses, giving you more bang for your buck.",
-    icon: Cog6ToothIcon,
+    icon: BanknotesIcon,
   },
   {
     name: "Health Reimbursement Arrangement (HRA)",
@@ -51,9 +55,6 @@ export default function Features() {
     <div className="bg-green-1050 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-base/7 font-semibold text-indigo-400">
-          Why Choose Me?
-          </h2>
           <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">
           Expert Guidance, Personalized Service
           </p>

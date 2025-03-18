@@ -4,7 +4,7 @@ import Image from 'next/image';
 function About() {
 
     return (
-        <main className="isolate bg-green-1050">
+        <main id='about' className="isolate bg-green-1050">
             {/* Hero section */}
             <div className="relative isolate -z-10">
                 <svg

@@ -29,8 +29,8 @@ export default function Home() {
       <Features/>
       <Contact/>  
       {/* <Testimonials/> */}
-      <TimeLine/>
       <About/>
+      <TimeLine/>
       <Footer/>
     </div>
   )

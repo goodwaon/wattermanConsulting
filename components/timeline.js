@@ -31,7 +31,7 @@ const timeline = [
   
   export default function TimeLine() {
     return (
-      <div className="bg-white sm:pb-20">
+      <div className="bg-white py-16 sm:pb-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4">
             {timeline.map((item) => (

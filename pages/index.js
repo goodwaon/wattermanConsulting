@@ -12,7 +12,7 @@ import About from '../components/about'
 import Footer from '../components/footer'
 import TimeLine from 'components/timeline'
 import Testimonials from 'components/testimonial'
-
+import Content from 'components/content'
 
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar/>
-      <Hero/>
+      <Content/>
       <Features/>
       <Contact/>  
       {/* <Testimonials/> */}

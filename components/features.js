@@ -15,7 +15,7 @@ const features = [
   {
     name: "Group Health Insurance",
     description:
-      "Choosing the right health plan for your employees can be a balancing act considering network coverage, pharmacy options, and staying within your budget.",
+      "Choosing the right health plan means balancing network coverage, pharmacy benefits, and your budget.",
     icon: ShieldCheckIcon,
   },
   {
@@ -27,7 +27,7 @@ const features = [
   {
     name: "Self Insured",
     description:
-      "Health plans that allow employers to share in both the risks and rewards have not only been a go-to for larger groups (100+ employees), but have increased in popularity for smaller businesses",
+      "Health plans that share risks and rewards are popular with large groups—and increasingly with small businesses too.",
     icon: UsersIcon,
   },
   {
@@ -45,7 +45,7 @@ const features = [
   {
     name: "Health Reimbursement Arrangement (HRA)",
     description:
-      "A Health Reimbursement Arrangement (HRA) is like a helpful boost for those out-of-pocket expenses that your employer’s insurance doesn’t fully cover. Instead of handling the whole deductible yourself, your employer jumps in to share the load!",
+      "An HRA helps cover out-of-pocket costs your insurance doesn’t—your employer chips in to ease the burden.",
     icon: ServerIcon,
   },
 ];

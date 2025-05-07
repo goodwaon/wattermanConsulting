@@ -6,12 +6,12 @@ export default function ContactFeatures() {
 
     return (
         <section class="text-gray-600 body-font relative">
-  <div class="container px-5 py-24 mx-auto">
+  <div class="container py-16 mx-auto">
     <div class="flex flex-col text-center w-full mb-12">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact</h1>
+      <p class="mx-auto leading-relaxed text-base">No obligation. Just expert advice from your local insurance partner.</p>
     </div>
-    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+    <div class=" mx-auto">
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-1/2">
           <div class="relative">
@@ -35,9 +35,8 @@ export default function ContactFeatures() {
           <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
         </div>
         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-          <Link href={"#"} class="text-indigo-500">example@email.com</Link>
-          <p class="leading-normal my-5">49 Smith St.    
-          </p>
+          <Link href={"#"} class="text-indigo-500">brandon@benefitsbw.com</Link>
+          <p class="leading-normal my-5"></p>
           <span class="inline-flex">
             <Link  href={"#"} class="text-gray-500">
               <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">

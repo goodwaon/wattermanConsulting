@@ -43,7 +43,7 @@ export default function Content() {
             </div>
             <div className="text-center">
               <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
-                Group Health Insurance
+              Employee Benefits and Consulting
               </h1>
               <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
               Choosing the right health plan for your employees can be a balancing act. Considering network coverage, pharmacy options, and staying within your budget. Then, there are ancillary benefits like dental, vision, disability, and voluntary work-site coverage to factor in.

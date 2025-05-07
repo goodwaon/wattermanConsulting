@@ -8,7 +8,7 @@ function Hero() {
     return (
         <div className="bg-white px-6 py-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-base/7 text-gray-700">
-          <p className="text-base/7 font-semibold text-indigo-600">Watermann Consulting</p>
+          <p className="text-base/7 font-semibold text-blue-950">Watermann Consulting</p>
           <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
           Group Health Insurance 
           </h1>
@@ -24,19 +24,19 @@ function Hero() {
             </p>
             <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
               <li className="flex gap-x-3">
-                <CheckCircleIcon aria-hidden="true" className="w-[8%] mt-1 size-5 flex-none text-indigo-600" />
+                <CheckCircleIcon aria-hidden="true" className="w-[8%] mt-1 size-5 flex-none text-blue-950" />
                 <span>
                   <strong className="font-semibold text-gray-900">Deep Market Insight</strong> We know the local providers, networks, and regulations inside and out—so you get plans that work best for your team, right here in your community.
                 </span>
               </li>
               <li className="flex gap-x-3">
-                <CheckCircleIcon aria-hidden="true" className="w-[8%] mt-1 size-5 flex-none text-indigo-600" />
+                <CheckCircleIcon aria-hidden="true" className="w-[8%] mt-1 size-5 flex-none text-blue-950" />
                 <span>
                   <strong className="font-semibold text-gray-900"> Hands-On, Year-Round Support </strong> From onboarding to claims, we offer personal service—not call centers. We’re your single point of contact whenever you need help.
                 </span>
               </li>
               <li className="flex gap-x-3">
-                <CheckCircleIcon aria-hidden="true" className="w-[8%] mt-1 size-5 flex-none text-indigo-600" />
+                <CheckCircleIcon aria-hidden="true" className="w-[8%] mt-1 size-5 flex-none text-blue-950" />
                 <span>
                   <strong className="font-semibold text-gray-900"> Smart, Affordable Plan Strategies</strong> We help you control costs with competitive group rates, tax-advantaged options, and custom plan designs that balance coverage and budget.
                 </span>

@@ -32,10 +32,10 @@ export default function ContactFeatures() {
           </div>
         </div>
         <div class="p-2 w-full">
-          <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+          <button class="flex mx-auto text-white bg-blue-950 border-0 py-2 px-8 focus:outline-none hover:bg-green-950 rounded text-lg">Send</button>
         </div>
         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-          <Link href={"#"} class="text-indigo-500">brandon@benefitsbw.com</Link>
+          <Link href={"#"} class="text-blue-950">brandon@benefitsbw.com</Link>
           <p class="leading-normal my-5"></p>
           <span class="inline-flex">
             <Link  href={"#"} class="text-gray-500">

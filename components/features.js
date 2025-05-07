@@ -33,7 +33,7 @@ const features = [
   {
     name: "Professional Employer Organization (PEO)",
     description:
-      "When entering into a partnership with a PEO (Professional Employer Organization), a co-employment arrangement is established between the business and PEO.",
+      "Partnering with a PEO creates a co-employment arrangement between your business and the PEO.",
     icon: BriefcaseIcon,
   },
   {

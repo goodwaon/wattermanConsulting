@@ -50,7 +50,7 @@ export default function Content() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Link href="/#"
-                  className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                  className="rounded-md bg-blue-950 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                 >
                   Get started
                 </Link>

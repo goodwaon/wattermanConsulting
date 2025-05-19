@@ -64,13 +64,13 @@ export default function Features() {
         </div>
         <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base/7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-16">
           {features.map((feature) => (
-            <div key={feature.name} className="flex  relative pr-9">
-              <feature.icon aria-hidden="true" className="text-indigo-500" />
-              <div className="pl-4">
-                <dt className="inline font-semibold text-white">
+            <div key={feature.name} className="flex rounded-md shadow-md bg-white px-7 py-6 relative pr-9">
+              <feature.icon aria-hidden="true" className="text-blue-950" />
+              <div className="pl-4 text-black">
+                <dt className=" font-semibold text-black">
                   {feature.name}
                 </dt>{" "}
-                <dd className="inline">{feature.description}</dd>
+                <dd className="">{feature.description}</dd>
               </div>
             </div>
           ))}

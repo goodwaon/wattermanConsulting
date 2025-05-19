@@ -27,10 +27,9 @@ export default function Home() {
       <NavBar/>
       <Content/>
       <Features/>
-      <Contact/>  
       {/* <Testimonials/> */}
+      <Contact/>  
       <About/>
-      <TimeLine/>
       <Footer/>
     </div>
   )
